@@ -15,6 +15,7 @@ const Home = () => {
 
     return (
         <div>
+            <h1>WELCOME TO FRONTEND</h1>
             {
                 users?.map((item, id) => <h1 key={id}>{item?.name}</h1>)
             }
